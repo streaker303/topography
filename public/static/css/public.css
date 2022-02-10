@@ -1,0 +1,202 @@
+@font-face{
+    font-family:'digital-7';
+    src: url('../fonts/digital-7.ttf');
+}
+@font-face {
+    font-family: 'Acens';
+    src: url('../fonts/Acens.ttf');
+}
+@font-face {
+    font-family: 'Bdzyjt';
+    src: url('../fonts/Bdzyjt.ttf');
+}
+@font-face {
+    font-family: 'Mnjlx';
+    src: url('../fonts/Mnjlx.ttf');
+}
+@font-face {
+    font-family: 'Hkxzy';
+    src: url('../fonts/Hkxzy.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*box-sizing: border-box;*/
+    font-family: '微软雅黑', '宋体', 'Helvetica';
+}
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+
+a:hover,
+a:visited,
+a:link,
+a:active,
+a {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    outline: none;
+    -webkit-appearance: none;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+
+.ub-img {
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ub-img1 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ub-img2 {
+    background-repeat: repeat-x;
+    background-size: auto 100%
+}
+
+.ub-img3 {
+    background-repeat: repeat-y;
+    background-size: 100% auto
+}
+
+.ub-img4 {
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ub-img5 {
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ub-img6 {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ub-img7 {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+.tx-l {
+    text-align: left;
+}
+
+.tx-r {
+    text-align: right;
+}
+
+.tx-c {
+    text-align: center;
+}
+
+.ut-s {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap !important;
+    /* 规定段落中的文本不进行换行： */
+    outline: 0 !important
+}
+
+.ut-m {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal !important;
+    outline: 0 !important
+}
+
+.line1 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line2 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line3 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.marB {
+    margin-bottom: 10px;
+}
+
+.w00 {
+    width: 100%;
+}
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+.marB20{
+    margin-bottom: 20px;
+}
+
+.no-copy {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

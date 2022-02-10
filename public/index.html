@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+    <title>webpack5.x+Vue2.x</title>
+    <link type="text/css"  rel="stylesheet" href="/static/css/black_theme.css" /><!--深色主题-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            /*box-sizing: border-box;*/
+            font-family: '微软雅黑', '宋体', 'Helvetica';
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        img {
+            border: none;
+            max-width: 100%;
+        }
+
+
+        a:hover,
+        a:visited,
+        a:link,
+        a:active,
+        a {
+            color: -webkit-link;
+            text-decoration: underline;
+            cursor: pointer;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        button,
+        input,
+        textarea {
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        textarea {
+            width: 100%;
+            height: auto;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+
+
+    </style>
+    <script>
+        // 分辨率大于等于1680，大部分为1920的情况下，调用此css
+        if (window.screen.width > 1680) {
+            document.write('<link rel="stylesheet" href="./static/css/index_1920.css">');
+        }
+        // 分辨率再在1600-1680的情况下，调用此css
+        else if (window.screen.width >= 1600) {
+            document.write('<link rel="stylesheet" href="./static/css/index_1600.css">');
+        }
+        // 分辨率小于1600的情况下，调用此css
+        else {
+            document.write('<link rel="stylesheet" href="./static/css/index.css">');
+        }
+    </script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
